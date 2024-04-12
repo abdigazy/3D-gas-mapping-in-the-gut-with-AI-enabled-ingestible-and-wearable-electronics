@@ -6,9 +6,9 @@ t = readmatrix('[LOCALIZATION DATA]');
 
 testing = zeros(1,3);
 for z = 1:length(t(:,1))
-    xz_in = t(z,3);
-    yz_in = t(z,4);
-    z_in = t(z,2);
+    xz_in = t(z,2);
+    yz_in = t(z,3);
+    z_in = t(z,1);
 
     x_coord = 0;
     y_coord = 0;
